@@ -1,0 +1,116 @@
+:root {
+  --red: #db4444;
+}
+.bg-red {
+  background-color: #db4444;
+}
+.text-red {
+  color: #db4444;
+}
+body {
+  font-family: Inter;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+.navbar .navbar-collapse li .active {
+  text-decoration: underline;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 30px;
+}
+
+.navbar-nav a {
+  font-size: 16px;
+  font-family: Poppins;
+}
+
+.title .bg-red {
+  border-radius: 3px;
+  margin-left: 0 !important;
+}
+
+.title .text-red {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Poppins;
+}
+.title-text h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+/* --------------------------------- */
+.cate-item {
+  /* width: 13rem; */
+  height: 11rem;
+  border: 1px solid var(--red);
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+}
+.item .img-item img {
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.category .active {
+  background-color: #db4444;
+}
+.category .active div i {
+  color: white;
+}
+.category .active span {
+  color: white;
+}
+.category .nav-link-cate {
+  text-transform: capitalize;
+}
+/* ------------------------------------- */
+
+.products .item {
+  /* width: 100%; */
+}
+
+.products .item .img-item {
+  background-color: #f5f5f5;
+  height: 20rem;
+}
+
+.products .item .img-item > div {
+  right: 10px;
+}
+
+.img-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* ================================== */
+
+/* .fa-star,
+.fa-star-half-alt,
+.fa-star-o {
+  color: gold;
+} */
+
+.sort {
+  display: flex;
+  justify-content: center;
+  /* margin: 20px; */
+}
+
+.sort i{
+  cursor: pointer;
+}

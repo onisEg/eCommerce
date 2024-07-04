@@ -29,7 +29,7 @@ categoryItem.forEach((item) => {
 
 
 var currentSort = `asc`;
-var currentCategory = `electronics`;
+var currentCategory = `jewelery`;
 getDateByCategory(currentCategory, currentSort)
 
 

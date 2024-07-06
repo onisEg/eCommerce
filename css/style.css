@@ -111,6 +111,53 @@ body {
   /* margin: 20px; */
 }
 
-.sort i{
+.sort i {
   cursor: pointer;
 }
+
+/* =========================== */
+
+footer li {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fafafa;
+}
+
+footer ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer ul .h5 {
+  padding-bottom: 16px;
+}
+
+footer li .card-footer {
+  height: 2.6rem;
+}
+footer .input-group input {
+  background-color: transparent;
+  border: 1px solid lightcyan;
+  border-radius: 5px;
+  height: 2.5rem;
+  &::placeholder {
+    color: #757474;
+  }
+  border-right: none;
+}
+footer .input-group span {
+  border-left: none;
+  cursor: pointer;
+}
+
+.fb {
+  border-top: 1px solid #313131;
+}
+.fb p {
+  color: #8a8a8a;
+}
+
+
+

@@ -54,7 +54,7 @@ async function getDateByCategory(category, sort) {
 
     product.innerHTML = data.map(function (item) {
         var starRate = renderStars(item.rating.rate);
-        return ` <div class="col-md-3 my-4">
+        return ` <div class="col-md-3 col-6  my-4">
                 <div class="item">
                     <div class="img-item  p-5 d-flex justify-content-center rounded position-relative">
                         <img class="img-fluid  " src="${item.image}" alt="">

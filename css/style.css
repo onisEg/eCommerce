@@ -159,5 +159,30 @@ footer .input-group span {
   color: #8a8a8a;
 }
 
+/* ===================================================== */
+@media screen and (max-width: 767px) {
 
+  .cate-item{
+    height: 6rem;
+  }
+  .cate-item .py-4{
+    padding-top: 5px !important;
+    padding-bottom: 2px !important;
+  }
+  .category>div{
+    padding: 5px;
+  }
+  .category .cate-item i {
+    font-size: 2rem;
+  }
+  .cate-item .nav-link-cate {
+     font-size: 0.75rem !important;
+    text-align: center;
 
+  }
+
+  /* ------------------------- */
+  .products .item .img-item{
+    height: 13rem;
+  }
+}
